@@ -7,6 +7,10 @@ public class Hooks {
 	@Before("@DeletePlace")
 	public void beforeScenario() throws Exception
 	{
+		System.out.println("Git Practice");
+		System.out.println("Git Practice1");
+		System.out.println("Git Practice2");
+		
 		E2EFlow sd=new E2EFlow();
 		if(E2EFlow.place_Id==null)
 		{
