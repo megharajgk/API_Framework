@@ -34,6 +34,10 @@ public class E2EFlow extends TestUtils {
 		System.out.println("Git Practice");
 		System.out.println("Git Practice1");
 		System.out.println("Git Practice2");
+		
+		System.out.println("Git Practice3");
+		System.out.println("Git Practice4");
+		
 		tdb=new TestDataBuild();
 		AddPlacePojo payloadAddPlace = tdb.addPlacePayload(name,language, address);
 		

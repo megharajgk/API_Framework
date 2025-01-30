@@ -11,6 +11,9 @@ public class Hooks {
 		System.out.println("Git Practice1");
 		System.out.println("Git Practice2");
 		
+		System.out.println("Git Practice3");
+		System.out.println("Git Practice4");
+		
 		E2EFlow sd=new E2EFlow();
 		if(E2EFlow.place_Id==null)
 		{
