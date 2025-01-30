@@ -31,6 +31,7 @@ public class E2EFlow extends TestUtils {
 	@Given("add place payload with {string}, {string}, {string}")
 	public void add_place_payload_with(String name, String language, String address) throws Exception {
 	
+		System.out.println("Git Practice");
 		tdb=new TestDataBuild();
 		AddPlacePojo payloadAddPlace = tdb.addPlacePayload(name,language, address);
 		
