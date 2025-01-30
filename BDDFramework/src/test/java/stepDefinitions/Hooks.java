@@ -1,0 +1,19 @@
+package stepDefinitions;
+
+import io.cucumber.java.Before;
+
+public class Hooks {
+	
+	@Before("@DeletePlace")
+	public void beforeScenario() throws Exception
+	{
+		E2EFlow sd=new E2EFlow();
+		if(E2EFlow.place_Id==null)
+		{
+			sd.add_place_payload_with("mgkrmd", "Kannada", "Mysore");
+			sd.user_calls_with_http_request("addPlaceAPI", "POST");
+//			sd.verify_place_id_created_maps_to_using("mgkrmd", "getPlaceAPI");
+		}
+	}
+
+}

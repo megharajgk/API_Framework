@@ -1,0 +1,170 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "mgkacademy",
+    "phone_number": "1234567890",
+    "address": "Sydney",
+    "types": [
+        "Park",
+        "Shop"
+    ],
+    "website": "http://mgkacademy.com",
+    "language": "English-UK",
+    "location": {
+        "lat": 10.1335,
+        "lng": -15.542
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 05:32:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "aec5a9f60d06ad6de02b0106bb9d7bdf",
+    "scope": "APP",
+    "reference": "891beb2fa71eede7186a4c3e4429495e891beb2fa71eede7186a4c3e4429495e",
+    "id": "891beb2fa71eede7186a4c3e4429495e"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=aec5a9f60d06ad6de02b0106bb9d7bdf
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=aec5a9f60d06ad6de02b0106bb9d7bdf
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 05:32:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 220
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "10.1335",
+        "longitude": "-15.542"
+    },
+    "accuracy": "50",
+    "name": "mgkacademy",
+    "phone_number": "1234567890",
+    "address": "Sydney",
+    "types": "Park,Shop",
+    "website": "http://mgkacademy.com",
+    "language": "English-UK"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "mgkacademyrmd",
+    "phone_number": "1234567890",
+    "address": "India",
+    "types": [
+        "Park",
+        "Shop"
+    ],
+    "website": "http://mgkacademy.com",
+    "language": "English-IN",
+    "location": {
+        "lat": 10.1335,
+        "lng": -15.542
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 05:32:58 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "bb52237f0276b3efbfa94407a73fffdf",
+    "scope": "APP",
+    "reference": "73324e374345907c5ef48d0ca9c277df73324e374345907c5ef48d0ca9c277df",
+    "id": "73324e374345907c5ef48d0ca9c277df"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=bb52237f0276b3efbfa94407a73fffdf
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=bb52237f0276b3efbfa94407a73fffdf
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 05:32:58 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 222
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "10.1335",
+        "longitude": "-15.542"
+    },
+    "accuracy": "50",
+    "name": "mgkacademyrmd",
+    "phone_number": "1234567890",
+    "address": "India",
+    "types": "Park,Shop",
+    "website": "http://mgkacademy.com",
+    "language": "English-IN"
+}
